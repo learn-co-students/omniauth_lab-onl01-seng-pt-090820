@@ -8,6 +8,7 @@
   <pre>
     <%= session[:omniauth_data] %>
   </pre>
+  <%= button_to "Logout", logout_path %>
 <% else %>
   <p>No authentication information is available.</p>
   <p>Try <%= link_to 'Signing in with the developer strategy', '/auth/developer'%>.</p>
