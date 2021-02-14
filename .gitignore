@@ -46,4 +46,6 @@ jspm_packages
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
-.env
+c/i/omniauth.rb .env
+GITHUB_KEY=48600f2a137d931525fd
+GITHUB_SECRET=9a7265e2ecc6dd5b9b0cc07d80384bdcb5a579ff
